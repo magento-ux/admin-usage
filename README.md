@@ -8,7 +8,7 @@ The data can be used to improve user experience and the overall quality of the A
 
 ## How to install
 
-### 1. via composer
+### With composer
 
 Edit `composer.json`
 
@@ -32,7 +32,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-### 2. Copy and paste
+### Copy and paste
 
 Download latest version from GitHub
 
