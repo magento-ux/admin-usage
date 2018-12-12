@@ -10,9 +10,6 @@
         <referenceContainer name="global.notices">
             <block class="Magento\AdminUsage\Block\Metadata" name="top_block" template="Magento_AdminUsage::top.phtml" ifconfig="admin/usage/enabled" /> 
         </referenceContainer>
-        <referenceContainer name="before.body.end">
-            <block class="Magento\Framework\View\Element\Template" name="bottom_block" template="Magento_AdminUsage::bottom.phtml" ifconfig="admin/usage/enabled" /> 
-        </referenceContainer>
     </body>
 </page>
 
